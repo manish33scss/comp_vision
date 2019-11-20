@@ -4,7 +4,7 @@ Created on Tue Nov 19 23:20:22 2019
 
 @author: Manish
 """
-
+#Code to extract nth frame from a Video : source _ OpenCV
 import cv2
  
 # Opens the Video file
