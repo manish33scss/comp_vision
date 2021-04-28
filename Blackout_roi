@@ -1,0 +1,13 @@
+def create_blackout(img ):
+    
+    
+    a,b,c,d = cv2.selectROI(" Select region to be blacked out ", img, fromCenter = 0)  
+    
+    cnts  = np.asarray([[a,b],  [a,b+d],[a+c,b]])
+    cnts2  = np.asarray([  [a,b+d],[a+c,b], [a+c,b+d]])
+    cv2.drawContours(img, [cnts], 0, (0,0,0),-1)
+    cv2.drawContours(img, [cnts2], 0, (0,0,0),-1)
+    
+    cv2.imshow("selected ROI" , img), cv2.waitKey(0)
+    cv2.destroyAllWindows()
+    return img
