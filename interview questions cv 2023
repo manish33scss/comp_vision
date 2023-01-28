@@ -1,0 +1,58 @@
+1) what is a pixel ? 
+2) what is pixel pitch?
+3) what do you understand by the term computer vision ?
+4) how deos a cnn works, discribe vairous components of cnn, difference between cnn and rnn. in terms of steps
+5) why do we use convolutional neural networks ?  why the inputs in computer vision problems can get huge ?
+6) Can you detect objects without using deep learning ? if yes how ?
+7) what is the difference between machine learning and deep learning ? for object classsification !
+8) What does it mean when we say "backbone" and "head" in a network ?
+9)  What is hyperparameter tuning ? Explain learning rate in the context of neural network models. What happens if the learning	rate is too high or too low?
+10) What sort of hyperparameter you've tuned so far ? did you spot any difference in the results? if yes, in terms of what ? 
+11) Have you worked with yolov5 ? what backbone and head yolov5 is using ? and Can you think of some other backbones for yolov5 ?
+12) i have a very small dataset of choclates, can i still train it on yolov5 or any other object detector of your choice ?
+13) What do you mean by transfer learning ? Advantages of transfer learning, can i change the dimension of input image in transfer learning ? how much you can update the image dimensions ?
+14) what is Object tracking, and in which cases we need tracking ? what algorithm you have implemented ?
+   : what is difference between deep sort and sort ?
+15) Low level computer vision : 
+	what is really happening inside the camera when manual zoom-in & zoom-out?
+	what is homography ? A :Homography is a transformation that maps the points in one point to the corresponding point in 		another image. The homography is a 3×3 matrix. 					USed for feature matching. 
+	
+	Explain about Sampling and Quantization? transforming analogue image coordinates into digital image coordinates
+	 converting an analogue image's amplitude or intensity to a digital image.
+	 How many types of image filters in OpenCV? Linear :blurr operations, gauss, box, laplace
+	non-linear:  calculate the value of the source pixel, median, minimum, max
+	* Can you explain what the mach band effect is? how it can be resolved
+
+ 
+16) Latest paper or algorithm you studied or implemented. 
+
+17) what is one-shot learning ?
+
+
+
+18) For an RGB image of dimensions 10x10x3 convolved with a 3x3 filter, what will be the size of the resultant image?
+	A) convolution operation is not possible for a 10x10x3 image with a 3x3 filter as the third dimension (or the number of channels) 
+	must be the same in order to achieve convolution
+	B) 10*10, 3*3, s = 1, padding= 1. 
+
+19) it is said that yolov3 is not good for small size objects ! is it true ? if yes? why ? 
+A: the feature map they use has very low resolution and the small object features get too small to be detectable
+
+20) What is the most coolest think you have imagined you can do with computer vision, which is not done yet, it can sound impossible as of now but let's hear some crazy ideas !!
+
+Resume related questions :
+what are video codecs?
+what trackers you have used ?
+what keypoint detector you used ? if custom which loss function ?
+Feature of enlightenGan ? what is perceptual loss ?
+what i need > i am recording a video, and i want to know the offset between frames, i.e., by how much a frame 1 is deviated from frame 2. 
+what approach will you use in this case ? Any questions regarding the given task ? 
+
+coding :
+1) display your video. 
+2) change it bnw
+3) resize and save the video in mp4, can you adjsut the bitrate of a video ? if yes how? not necesarry to code that. 
+4) create a class for the same. 
+
+
+
